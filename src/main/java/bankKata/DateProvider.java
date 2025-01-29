@@ -15,7 +15,7 @@ class SystemDateProvider implements DateProvider {
     }
 }
 
-// For Test implementation
+// For Test implementation we can just provide date on other
 class MockDateProvider implements DateProvider {
     private final List<LocalDate> dates;
     private int index = 0;
